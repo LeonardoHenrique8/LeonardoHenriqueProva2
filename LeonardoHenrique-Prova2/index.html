@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Leonardo Henrique - Prova</title>
+
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <div class="content">
+            <h1>Controle de Contas</h1>
+
+            <form id="guestForm">
+                <div class="efeito">
+                    <label>Descrição</label>
+                    <input type="text" id="descricao">
+                </div>
+
+                <div class="efeito">
+                    <label>Valor</label>
+                    <input type="text" id="valor">
+                </div>
+
+                <div class="efeito">
+                    <label>Data de Vencimento</label>
+                    <input type="text" id="datavenci">
+                </div>
+
+                <div class="efeito">
+                    <label>Tipo</label>
+                    <input type="text" id="tipo">
+                </div>
+
+               <input type="button" id="addInfo" value="Salvar">
+                
+            </form>
+
+            <h2>Contas cadastradas</h2>
+            <table id="informacao">
+                <tr class="blue">
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                    <th>Data de Vencimento</th>
+                    <th>Tipo</th>
+                </tr>
+            </table>
+
+            <div class="saldo">
+                <label>Saldo: R$</label>
+            </div>
+
+        </div>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>

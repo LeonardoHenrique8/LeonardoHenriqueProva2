@@ -1,0 +1,30 @@
+div.content {
+    width: 500px;
+    border: 2px solid black;
+    margin: 35px auto;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+div.efeito{
+    margin-top: 5px;
+}
+
+#addInfo{
+    margin-top: 10px;
+}
+
+div.saldo{
+    margin-left: 420px;
+}
